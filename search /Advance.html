@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Advance.css" type="text/css">
+	<title>
+		Advaced search
+	</title>
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+		</div>
+		<form action="index.html">
+			<button>
+				Google search
+			</button>
+		</form>
+	</div>
+	<div class="forms">
+		<div class="main">
+			<p>Advanced search</p>
+		</div>
+		<div class="sub-main">
+			<p>Find pages with...</p>
+		</div>
+		<form action="https://google.com/search" name="f">
+			<div class="topic">
+				<label for="all-these"> all these words:
+				</label>
+			</div>
+			<div class="box">
+				<input id="all-these" type="text" value="" name="as_q" />
+			</div>
+			<br />
+			<div class="topic">
+				<label for="exact">this exact word or phrase:
+				</label>
+			</div>
+			<div class="box">
+				<input id="exact" type="text" name="as_epq" value="" />
+			</div>
+			<br />
+			<div class="topic">
+				<label for="any">any of these words:
+				</label>
+			</div>
+			<div class="box">
+				<input id="any" type="text" name="as_oq" value="" />
+			</div>
+			<br />
+			<div class="topic">
+				<label for="none">none of these words:
+				</label>
+			</div>
+			<div class="box">
+				<input id="none" type="text" name="as_eq" value="" />
+			</div>
+			<br />
+			<div class="sub">
+				<input type="submit" value="Advance search">
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
