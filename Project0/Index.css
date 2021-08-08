@@ -1,4 +1,4 @@
-
+/* button and textfield styling */
 button,
 input[type="submit"],
 input[type="text"] {
@@ -25,11 +25,10 @@ button {
   margin: 20px;
 }
 
-
-.logo {
-  display: flex;
-  justify-content: center;
-  padding: 70px;
+button:hover,
+button:active,
+input[type="text"]:active {
+  border: 0.1rem solid #4285F4;
 }
 
 input[type="text"] {
@@ -40,11 +39,21 @@ input[type="text"] {
   margin: 10px 50px;
 }
 
+
+/* google logo*/
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+/*header*/
 .option {
   display: flex;
   justify-content: flex-end;
 }
 
+/*search engine*/
 .gs,
 .bar {
   display: flex;
