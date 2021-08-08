@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Google Search</title>
+    </head>
+    
+    <style>
+    
+button,
+input[type="submit"],
+input[type="text"] {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background: #F8F8F8;
+  color: #4285F4;
+}
+
+input[type="submit"] {
+  background: #4285f4;
+  color: #fff;
+}
+
+input[type="submit"],
+button {
+  border-radius: 4px;
+  margin: 20px;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+input[type="text"] {
+  border: 1px solid #c0c0c0;
+  border-radius: 50px;
+  padding: 5px 20px;
+  width: 70%;
+  margin:10px 50px;
+}
+
+.option {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gs, .bar {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+button:hover,
+button:active,
+input[type="text"]:active{
+border: 0.1rem solid #4285F4;
+}
+
+    </style>
+    
+    <body>
+      <div class="option">
+        
+        <button class="img-btn"
+        onclick="project0/Image.html">Image search 
+        </button>
+        <button class="adv-btn"
+        onclick="project0/Advace.html">
+        Advanced search
+        </button>
+        
+      </div>
+      
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+      </div>
+      
+      <form action="https://google.com/search">
+        <div class="bar">
+          
+          <input type="text" name="q" placeholder="search...">
+          
+          </div>
+          
+          <div class="gs">
+            
+            <input type="submit"
+            value="Google Search">
+            
+            <form action="https://www.google.com/search?btnI=1&q=%s">
+              <input type="submit"
+            value="I'm feeling lucky" name="btnI">
+            </form>
+            
+         </div>
+         
+     </form>
+     
+  </body>
+  
+</html>

@@ -1,0 +1,110 @@
+/* color variables*/
+:root {
+  --blue: #4285f4;
+  --red:#DB4437;
+  --gray:#f8f8f8;
+  --box-gray:#bebebe;
+}
+
+/* font styling and sizing */
+body {
+  font-family: 'Segoe UI', San-serif;
+  font-size: 10px;
+  padding:0;
+  margin:0;
+}
+
+.forms, 
+.header {
+  font-size: 1.2rem;
+  padding:1rem;
+}
+
+/*background colors and alignment */
+.header {
+  background: var(--gray);
+  padding: 2rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width:8rem;
+  height:3rem;
+}
+
+.main {
+  width:auto;
+  height:4rem;
+  border: 0.2rem solid var(--gray);
+  border-radius:0.4rem;
+  color:var(--red);
+  padding:0.5rem 2rem;
+}
+
+p {
+  font-weight: 500;
+}
+
+.sub-main {
+  margin: 1.2rem;
+}
+
+form {
+  margin:2.5rem 1rem;
+}
+
+/* buttons and input field */
+button,
+input[type="submit"],
+input[type="text"]  {
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    font-weight: 400;
+  }
+  
+input[type="text"] {
+  border: 0.08rem solid var(--box-gray);
+  min-width:20rem;
+}
+
+button{
+  color:var(--blue);
+  width: 10rem;
+}
+
+input[type="submit"] {
+  background: var(--blue);
+  color:white;
+  width: 10rem;
+}
+
+button:hover,
+button:active,
+input[type="text"]:active {
+  border: 0.1rem solid var(--blue);
+}
+
+
+/* responsive (desktop) designing*/
+@media screen and (min-width:720px){
+  .box,
+  .topic {
+    display: flex;
+  }
+  
+  .topic {
+    justify-content: flex-start;
+  }
+  
+  .box {
+    justify-content: space-around;
+    margin:-2.3rem 0 1rem 1rem;
+  }
+}
+
