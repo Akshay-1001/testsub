@@ -88,7 +88,7 @@ input[type="submit"] {
 button:hover,
 button:active,
 input[type="text"]:active {
-  border: 0.1rem solid var(--blue);#42445A#00000000
+  border: 0.1rem solid var(--blue);
 }
 
 
@@ -105,7 +105,7 @@ input[type="text"]:active {
   
   .box {
     justify-content: space-around;
-    margin:-2.3rem 0 1rem 1rem;
+    margin:-2rem 0 0 5rem;
   }
 }
 
