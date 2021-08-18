@@ -71,12 +71,12 @@ input[type="text"]  {
   
 input[type="text"] {
   border: 0.08rem solid var(--box-gray);
-  min-width:20rem;
+  min-width:17rem;
 }
 
 button{
   color:var(--blue);
-  width: 10rem;
+  width: 8rem;
 }
 
 input[type="submit"] {
@@ -105,7 +105,7 @@ input[type="text"]:active {
   
   .box {
     justify-content: space-around;
-    margin:-2rem 0 0 15rem;
+    margin:-2rem 0 0 5rem;
   }
 }
 
